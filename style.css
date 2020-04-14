@@ -1,0 +1,155 @@
+  a{
+      text-decoration: none;
+      color: black;
+  }
+  a:hover{
+      text-decoration: underline;
+      }
+
+  body{
+      background-color: white;
+      overflow-x: hidden;
+  }
+
+  .nav-bar-div{
+    width: 100%;
+    height: 5%;
+    display: flex;
+  }
+
+  .nav-bar-left-half{
+    width: 50%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: flex-start;
+  }
+
+  .nav-bar-right-half{
+    width: 50%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: flex-end;
+  }
+
+  .nav-bar-link{
+    margin: 10px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .nav-bar-login-button{
+    background-color: #4387fd;
+    border: 1px solid #4285f4;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  .sigin-text{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .footer-div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+
+  .footer-div-left-half{
+    width: 50%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .footer-div-right-half{
+    width: 50%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  footer{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7%;
+    background-color: rgb(242,242,242);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .footer-text{
+    color:#5f6368;
+    margin: 15px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .content{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .logo{
+    margin-top: 50px;
+  }
+
+  .search-container{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+  }
+
+  .search-bar{
+    width: 100%;
+    outline: none;
+    border: none;
+  }
+
+  .button-container{
+    margin-top: 20px;
+  }
+
+  .button-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #5f6368;
+    padding: 0 16px;
+    margin: 11px 4px;
+    min-width: 54px;
+    height: 35px;
+  }
+
+  .search-icon{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+  }
+
+  .mic-icon{
+    background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    vertical-align: middle;
+    padding: 10px;
+  }
+  
+
